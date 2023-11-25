@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Way School</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+  <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+  <script src="js/jquery-1.7.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/tms-0.4.1.js"></script>
+  <script>
+    $(document)
+      .ready(function () {
+        $('.slider')
+          ._TMS({
+            show: 0,
+            pauseOnHover: true,
+            prevBu: '.prev',
+            nextBu: '.next',
+            playBu: false,
+            duration: 800,
+            preset: 'fade',
+            pagination: true,
+            pagNums: false,
+            slideshow: 7000,
+            numStatus: false,
+            banners: false,
+            waitBannerAnimation: false,
+            progressBar: false
+          })
+      });
+  </script>
+  <!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+
+<body>
+  <div class="main">
+    <!--==============================header=================================-->
+    <header>
+      <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+      <nav>
+        <div id="slide">
+          <div class="slider">
+            <ul class="items">
+              <li><img src="images/slider-1.jpg" alt=""></li>
+              <li><img src="images/slider-2.jpg" alt=""></li>
+              <li><img src="images/slider-3.jpg" alt=""></li>
+            </ul>
+          </div>
+          <a href="#" class="prev"></a><a href="#" class="next"></a>
+        </div>
+        <ul class="menu">
+          <li class="current"><a href="index.html" class="clr-1">Home</a></li>
+          <li><a href="about.html" class="clr-2">About</a></li>
+          <li><a href="contacts.html" class="clr-5">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--==============================content================================-->
+    <section id="content">
+      <div class="container_12">
+        <div class="grid_8">
+          <div class="pad-1">
+            <h2 class="p2">Welcome to Way School</h2>
+            <p class="text-1">
+              it's a vibrant K-12 learning community where every student is valued and encouraged to explore their full potential. Nestled in a nurturing environment, Way School blends tradition with innovation, offering a rich curriculum that spans from kindergarten through twelfth grade. Our dedicated teachers and staff are committed to fostering a love of learning in our students, preparing them for success in an ever-changing world.
+            </p>
+            <p class="text-1">
+              At Way School, we believe in the holistic development of each child. Our comprehensive educational program includes a wide range of subjects, from the core academics of mathematics, science, and language arts to specialized areas such as the arts, technology, and physical education. We emphasize critical thinking, creativity, and problem-solving, ensuring our students are well-equipped for both higher education and future careers.
+            </p>
+            <p class="text-1">
+
+              Beyond academics, Way School is a community. Our diverse student body and inclusive culture promote respect, empathy, and understanding. Extracurricular activities, sports teams, and various clubs offer students opportunities to pursue their passions and develop leadership skills.
+            </p>
+            <p class="text-1">  
+              Parents and guardians are essential partners in our educational journey. We actively foster a collaborative environment where family involvement is welcomed and valued. Through regular communication, events, and parent-teacher collaborations, we ensure a supportive and engaging educational experience for every student.
+            </p>
+            <p class="text-1" ">  
+              Join us at Way School, where education is not just about learning—it's about growing, thriving, and preparing for a bright future.
+            </p>
+          </div>
+          <!--==============================footer=================================-->
+          <footer>
+            <p>© Way School</p>
+          </footer>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
